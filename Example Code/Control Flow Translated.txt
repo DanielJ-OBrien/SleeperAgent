@@ -1,0 +1,33 @@
+z = 0;
+n = 0;
+b = 0;
+while (z < 2) {
+	while (n < 3){ 
+		print("Inner while loop"); 
+		n = n + 1;
+		b = b + 1;
+		if (b == 3){
+			print("b equals 3"); 
+			b = 0
+			}
+		}; 
+	z = z + 1; 
+	print("Outer while loop"); 
+	n = 0};
+
+if (true) {print("If works")} else {print("This else wont print")};
+if (10 > 11) {print("This if wont print")} else {print("Else works")};
+
+if (6 < 10){
+	if(2 != 3) {
+		print("Nested if worked")
+	};
+	if(2 != 2){
+		print("This wont print")
+	}
+	else{
+		print("Nested else worked")
+	}
+};
+
+print("The end :)")
